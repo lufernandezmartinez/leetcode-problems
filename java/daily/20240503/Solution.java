@@ -28,22 +28,6 @@ public class Solution {
                 return 1;
             }
         }
-
         return 0;
-    }
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        String ver1 = "1.0.1";
-        String ver2 = "1";
-        System.out.println(solution.compareVersion(ver1, ver2));
-
-        ver1 = "7.5.2.4";
-        ver2 = "7.5.3";
-        System.out.println(solution.compareVersion(ver1, ver2));
-
-        ver1 = "1.01";
-        ver2 = "1.001";
-        System.out.println(solution.compareVersion(ver1, ver2));
     }
 }
